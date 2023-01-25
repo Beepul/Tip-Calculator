@@ -1,0 +1,122 @@
+body{
+    margin: 0px ;
+    padding: 0px;
+    background-color: #8990ec;
+    
+}
+/* .wrapper{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* wrapper was an attempt to center a main div in the screen 
+but the margin 100px auto did it hahahahaaaa */
+.container{
+    height: 525px;
+    width: 360px;
+    background-color: #272639;
+    border-radius: 1rem;
+    padding: 20px;
+    margin: 100px auto;
+}
+* {
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+.main-heading-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.main-heading{
+    font-size: 30px;
+}
+.heading{
+    font-size: 16px;
+}
+.bill-input-container{
+    background-color: #353959;
+    border-radius: 1rem;
+    padding-left: 15px;
+}
+.bill-input{
+   font-size: 1.2rem;
+   width: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+.bill-container{
+    margin-bottom: 2rem;
+}
+.tip-input-container{
+    background-color: #353959;
+    border-radius: 1rem;
+    padding-left: 15px;
+}
+.tip-input{
+   font-size: 1.2rem;
+   width: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+.tip-container{
+    margin-bottom: 2rem;
+}
+.lower-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+}
+.increase-btn{
+    background: none;
+    border: none;
+    background-color: #8990ec;
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    place-items: center;
+    color: #353959;
+    margin-right: 8px;
+}
+.decrease-btn{
+    background: none;
+    border: none;
+    background-color: #8990ec;
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    place-items: center;
+    color: #353959;
+}
+.number-of-people{
+    font-size: 24px;
+    margin-right: 8px;
+}
+.final-container{
+    text-align: end;
+}
+.final-amount{
+    font-size: 30px;
+}
+.clear-container{
+    display: flex;
+    justify-content: center;
+}
+.clear-btn{
+    height: 35px;
+    width: 90px;
+    background: none;
+    border: none;
+    background-color: #8990ec;
+    border-radius: 5px;
+    font-size: 16px;
+}
